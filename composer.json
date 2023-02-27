@@ -1,0 +1,17 @@
+{
+    "name": "sourabh/php-mysql-advance",
+    "autoload": {
+        "psr-4": {
+            "Sourabh\\PhpMysqlAdvance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sourabh",
+            "email": "sourabhsisodia010@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7"
+    }
+}

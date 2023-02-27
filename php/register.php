@@ -38,7 +38,7 @@ if (!empty($_GET['message'])) {
         <br>
         <br>
         <p>Already a user <a href="./login.php">Login!!</a></p>
-        <button type="submit">Register</button>
+        <button type="submit" name="submit">Register</button>
     </form>
 </body>
 

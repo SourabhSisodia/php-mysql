@@ -19,7 +19,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 
 
     $user = new User($email, $password, $conn);
-    $user->user_exists();
+
     if ($user->user_exists()) {
         if ($user->check_password()) {
             // $_SESSION["user"] = $email;

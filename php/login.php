@@ -32,6 +32,7 @@ if (!empty($_GET['message'])) {
         <br>
         <br>
 
+        <p> Forget Password ??<a href="./forget_password.php">Forget Password!!</a></p>
         <p>Not a user <a href="./register.php">Register!!</a></p>
         <button type="submit">Login</button>
     </form>
